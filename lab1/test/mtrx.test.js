@@ -1,8 +1,8 @@
 const chai = require('chai');
 const assert = chai.assert;
-const Mtrx = require('../node_modules/mtrx'); 
-const multiply = require('../node_modules/mtrx/src/multiply');
-const transpose = require('../node_modules/mtrx//src/transpose');
+const Mtrx = require('../../node_modules/mtrx'); 
+const multiply = require('../../node_modules/mtrx/src/multiply');
+const transpose = require('../../node_modules/mtrx//src/transpose');
 
 
 describe('Mtrx', () => {
