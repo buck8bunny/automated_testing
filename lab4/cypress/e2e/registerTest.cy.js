@@ -29,7 +29,7 @@ describe('RegistrationAndLoginTest', () => {
     cy.get('input#pass').type(password)
     cy.get('button[title="Login"]').click()
 
-
+    //idk why, but it only works if you write it twice
     cy.get('input#email').type(email)
     cy.get('input#pass').type(password)
     cy.get('button[title="Login"]').click()   
