@@ -1,4 +1,3 @@
-// mathPage.js
 class MathPage {
     visit() {
       cy.visit("http://suninjuly.github.io/math.html");
