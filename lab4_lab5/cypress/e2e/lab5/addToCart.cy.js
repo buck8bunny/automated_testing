@@ -1,4 +1,4 @@
-describe("Wishlist Test", function () {
+describe("Add to Cart Test", function () {
     before(function () {
         cy.visit("http://demo-store.seleniumacademy.com/");
     });
