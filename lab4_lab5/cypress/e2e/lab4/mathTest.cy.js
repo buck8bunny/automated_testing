@@ -25,10 +25,7 @@ cy.on("window:alert", (alertText) => {
   console.log("Alert Text: " + alertText);
 });
 // Завершаем выполнение теста
-cy.end();
-    
+cy.end(); 
   });
-  
-
 });
 
